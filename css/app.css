@@ -1,0 +1,147 @@
+body {
+    font-family: 'Hammersmith One', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background: #232526;
+    background: -webkit-linear-gradient(to top, #f1f1f1, #f3f3f3);
+    background: linear-gradient(to top, #f1f1f1, #f3f3f3);
+    height: 100vh;
+    color: #232323;
+}
+
+.player-img {
+    width: 170px;
+    height: 150px;
+    border-radius: 45%;
+    margin: 20px auto;
+    display: flex;
+    cursor: none;
+}
+
+.monster-img {
+    width: 170px;
+    height: 150px;
+    border-radius: 45%;
+    margin: 20px auto;
+    display: flex;
+    cursor: none;
+}
+
+.text-center {
+    text-align: center;
+
+}
+
+.healthbar {
+    width: 80%;
+    height: 40px;
+    background: #eee;
+    margin: auto;
+    transition: width 500ms;
+    border-radius: 6px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    box-sizing: border-box-shadow;
+    font-size: 1.4em;
+}
+
+.controls,
+.log {
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px;
+
+
+}
+
+.turn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.log ul {
+    list-style: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.log ul li {
+    margin: 5px;
+}
+
+.log ul .player-turn {
+    color: #ad0627;
+    background-color: #dd8383;
+}
+
+.log ul .monster-turn {
+    color: #eebc33;
+    background-color: #fff8e4;
+}
+
+.log ul .healing-turn {
+    color: #41ad02;
+    background-color: #97f3ab
+}
+
+button {
+    font-size: 20px;
+    background-color: #eee;
+    padding: 15px;
+    box-shadow: 0 1px 1px black;
+    margin: 10px;
+    border-radius: 5px;
+    color: #000;
+}
+
+#start-game {
+    background-color: #2a2c29;
+    color: #dddbdd
+}
+
+#start-game:hover {
+    background-color: #585858;
+}
+
+#attack {
+    background: #ED213A;
+    background: -webkit-linear-gradient(to top, rgb(173, 55, 42), #ED213A);
+    background: linear-gradient(to top, rgb(173, 55, 42), #ED213A);
+
+}
+
+#attack:hover {
+    background: #e60609;
+}
+
+#special-attack {
+    background: #f46b45;
+    background: -webkit-linear-gradient(to right, #f46b45, #eea849);
+    background: linear-gradient(to right, #f46b45, #eea849);
+}
+
+#special-attack:hover {
+    background: #ff9a2b;
+}
+
+#heal {
+    background: #aaffb0;
+    background: -webkit-linear-gradient(to bottom, #80eb89, #0faf4c);
+    background: linear-gradient(to bottom, #80eb89, #0faf4c);
+}
+
+#heal:hover {
+    background: #4edb57;
+}
+
+#give-up {
+    background: #e0e0e0;
+    background: -webkit-linear-gradient(to bottom, #ececec, #ececec);
+    background: linear-gradient(to bottom, #ececec, #cecece);
+}
+
+#give-up:hover {
+    background: #bdbdbd;
+}
