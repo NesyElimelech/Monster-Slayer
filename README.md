@@ -1,4 +1,7 @@
 # Monster-Slayer
+
+# https://nesyelimelech.github.io/Monster-Slayer/
+
 A Vue.js mini project-game 
 
 where you can fight the horrible candy-monster, 
